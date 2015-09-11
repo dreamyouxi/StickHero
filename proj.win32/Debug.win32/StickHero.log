@@ -1,0 +1,30 @@
+﻿生成启动时间为 2015/9/8 21:47:35。
+     1>项目“C:\Users\hekun\Documents\Cocos\CocosProjects\StickHero\proj.win32\StickHero.vcxproj”在节点 2 上(Build 个目标)。
+     1>InitializeBuildStatus:
+         正在创建“Debug.win32\StickHero.tlog\unsuccessfulbuild”，因为已指定“AlwaysCreate”。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I"C:\Cocos\frameworks\cocos2d-x\cocos\audio\include" /I"C:\Cocos\frameworks\cocos2d-x\external" /I"C:\Cocos\frameworks\cocos2d-x\external\chipmunk\include\chipmunk" /I"C:\Cocos\frameworks\cocos2d-x\extensions" /I..\Classes /I.. /I"C:\Cocos\frameworks\cocos2d-x\cocos\2d\..\..\cocos\editor-support" /I"C:\Cocos\frameworks\cocos2d-x\cocos\2d\..\..\cocos" /I"C:\Cocos\frameworks\cocos2d-x\cocos\2d\..\..\cocos\platform" /I"C:\Cocos\frameworks\cocos2d-x\cocos\2d\..\..\cocos\platform\desktop" /I"C:\Cocos\frameworks\cocos2d-x\cocos\2d\..\..\external\glfw3\include\win32" /I"C:\Cocos\frameworks\cocos2d-x\cocos\2d\..\..\external\win32-specific\gles\include\OGLES" /ZI /nologo /W0 /WX- /MP /Od /Oy- /D WIN32 /D _WINDOWS /D _USE_MATH_DEFINES /D GL_GLEXT_PROTOTYPES /D CC_ENABLE_CHIPMUNK_INTEGRATION=1 /D COCOS2D_DEBUG=1 /D _CRT_SECURE_NO_WARNINGS /D _SCL_SECURE_NO_WARNINGS /D _VARIADIC_MAX=10 /D _USING_V110_SDK71_ /D _UNICODE /D UNICODE /Gm- /EHsc /RTC1 /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug.win32\\" /Fd"Debug.win32\vc120.pdb" /Gd /TP /wd4267 /wd4251 /wd4244 /analyze- /errorReport:prompt ..\Classes\AppDelegate.cpp ..\Classes\HelloWorldScene.cpp
+         AppDelegate.cpp
+         HelloWorldScene.cpp
+       ResourceCompile:
+         所有输出均为最新。
+       PreLinkEvent:
+         if not exist "C:\Users\hekun\Documents\Cocos\CocosProjects\StickHero\proj.win32\Debug.win32\" mkdir "C:\Users\hekun\Documents\Cocos\CocosProjects\StickHero\proj.win32\Debug.win32\"
+         xcopy /Y /Q "C:\Cocos\frameworks\cocos2d-x\prebuilt\win32\*.*" "C:\Users\hekun\Documents\Cocos\CocosProjects\StickHero\proj.win32\Debug.win32\"
+         
+         :VCEnd
+         复制了 41 个文件
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\hekun\Documents\Cocos\CocosProjects\StickHero\proj.win32\Debug.win32\StickHero.exe" /INCREMENTAL /NOLOGO /LIBPATH:C:\Users\hekun\Documents\Cocos\CocosProjects\StickHero\proj.win32\Debug.win32\ /LIBPATH:C:\Users\hekun\Documents\Cocos\CocosProjects\StickHero\proj.win32\Debug.win32\ /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\hekun\Documents\Cocos\CocosProjects\StickHero\proj.win32\Debug.win32\StickHero.pdb" /SUBSYSTEM:WINDOWS,"5.01" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\hekun\Documents\Cocos\CocosProjects\StickHero\proj.win32\Debug.win32\StickHero.lib" /MACHINE:X86 /SAFESEH Debug.win32\game.res
+         Debug.win32\AppDelegate.obj
+         Debug.win32\HelloWorldScene.obj
+         Debug.win32\main.obj
+         StickHero.vcxproj -> C:\Users\hekun\Documents\Cocos\CocosProjects\StickHero\proj.win32\Debug.win32\StickHero.exe
+       FinalizeBuildStatus:
+         正在删除文件“Debug.win32\StickHero.tlog\unsuccessfulbuild”。
+         正在对“Debug.win32\StickHero.tlog\StickHero.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“C:\Users\hekun\Documents\Cocos\CocosProjects\StickHero\proj.win32\StickHero.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:06.24
